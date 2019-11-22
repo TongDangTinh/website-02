@@ -14,3 +14,14 @@
 //= require activestorage
 //= require turbolinks
 //= require_tree .
+//= require jquery3
+//= require popper
+//= require bootstrap
+
+$(function(){
+  // Khi click vao phan tu .lentren
+  $('.lentren').click(function(){
+    $('body').animate({scrollTop:0});
+    return 0;
+  })
+})
